@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A513BC8D-6A7D-D6C5-EEBE-D27CF600D276}</ProjectGuid>
+    <ProjectGuid>{10F2AEC8-CFBA-ACEB-3E60-4D8B3450F0F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Assets\Script\Pattern\AbstractFactory\HondaAmazeCarFactory.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\HondaAmazeCar.cs" />
     <Compile Include="Assets\Singleton.cs" />
+    <Compile Include="Assets\Script\Pattern\Prototype\QueryTest.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\Thief.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\Boss.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\Bomber.cs" />
@@ -71,10 +72,10 @@
     <Compile Include="Assets\Script\Pattern\AbstractFactory\CarAbstractFactory.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\CarFactory.cs" />
     <Compile Include="Assets\Test.cs" />
-    <Compile Include="Assets\QueryTest.cs" />
     <Compile Include="Assets\EnemyFactory.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\Gunman.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\SwiftCar.cs" />
+    <Compile Include="Assets\Script\Pattern\Prototype\ProtoTypeEx.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\SwiftCarFactory.cs" />
     <Compile Include="Assets\Shop.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\EnemyFactory.cs" />
