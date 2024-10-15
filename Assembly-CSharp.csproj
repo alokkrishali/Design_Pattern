@@ -64,9 +64,10 @@
     <Compile Include="Assets\Script\Pattern\AbstractFactory\HondaAmazeCarFactory.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\HondaAmazeCar.cs" />
     <Compile Include="Assets\Singleton.cs" />
-    <Compile Include="Assets\Script\Pattern\Prototype\QueryTest.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\Thief.cs" />
+    <Compile Include="Assets\Script\Pattern\Builder\QueryTest.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\Boss.cs" />
+    <Compile Include="Assets\Script\Pattern\Builder\Builder.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\Bomber.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\Car.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\CarAbstractFactory.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Script\Pattern\Factory\Gunman.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\SwiftCar.cs" />
     <Compile Include="Assets\Script\Pattern\Prototype\ProtoTypeEx.cs" />
+    <Compile Include="Assets\Script\Pattern\Builder\User.cs" />
     <Compile Include="Assets\Script\Pattern\AbstractFactory\SwiftCarFactory.cs" />
     <Compile Include="Assets\Shop.cs" />
     <Compile Include="Assets\Script\Pattern\Factory\EnemyFactory.cs" />
