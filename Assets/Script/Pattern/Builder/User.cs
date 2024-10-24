@@ -4,36 +4,38 @@ namespace Assets.Script.Pattern.Builder
 {
     public class User
     {
-        private int UserId;
-        private string UserName;
-        private string UserType;
-        // Use this for initialization
+        private int UsersId;
+        private string UsersName;
+        private string UsersType;
 
-        //private User(UserBuilder uBuilder)
-        //{
-        //    this.UserId = uBuilder.
-        //}
-        void Start()
+        private User(UserBuilder userBuilder)
         {
-
+            //UsersId = userBuilder.
         }
 
-        // Update is called once per frame
-        void Update()
+        public class UserBuilder
         {
+            private int UserId;
+            private string UserName;
+            private string UserType;
 
-        }
+            public UserBuilder SetUserID(int userId)
+            {
+                UserId = userId;
+                return this;
+            }
 
-        static class UserBuilder
-        {
-            //private int UserId;
-            //private string UserName;
-            //private string UserType;
+            public UserBuilder SetUserName(string userName)
+            {
+                UserName = userName;
+                return this;
+            }
 
-            //public UserBuilder SetUserID()
-            //{
-
-            //}
+            public UserBuilder SetUserType(string userType)
+            {
+                UserType = userType;
+                return this;
+            }
         }
     }
 }
